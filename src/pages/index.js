@@ -10,9 +10,10 @@ import "../styles/layout-override.css";
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>Welcome!</h1>
+    <p>This is my blog.</p>
+    <p>Isn't it great?</p>
+    <img src="https://source.unsplash.com/random/400x200" alt="random image" />
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
